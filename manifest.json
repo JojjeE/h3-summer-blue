@@ -24,6 +24,26 @@
 				"english": {
 					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Summer Blue"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Bleu d'été"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Sommerblau"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Blu estivo"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Летний голубой"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Verano Azul"
 				}
 			}
 		},
@@ -38,6 +58,26 @@
 					"english": {
 						"2741280242": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"4086875141": "Summer Blue"
+					},
+					"french": {
+						"2741280242": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"4086875141": "Bleu d'été"
+					},
+					"german": {
+						"2741280242": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"4086875141": "Sommerblau"
+					},
+					"italian": {
+						"2741280242": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"4086875141": "Blu estivo"
+					},
+					"russian": {
+						"2741280242": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"4086875141": "Летний голубой"
+					},
+					"spanish": {
+						"2741280242": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"4086875141": "Verano Azul"
 					}
 				}
 			}
@@ -53,6 +93,26 @@
 					"english": {
 						"3346035357": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"3648979387": "Summer Blue"
+					},
+					"french": {
+						"3346035357": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"3648979387": "Bleu d'été"
+					},
+					"german": {
+						"3346035357": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"3648979387": "Sommerblau"
+					},
+					"italian": {
+						"3346035357": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"3648979387": "Blu estivo"
+					},
+					"russian": {
+						"3346035357": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"3648979387": "Летний голубой"
+					},
+					"spanish": {
+						"3346035357": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"3648979387": "Verano Azul"
 					}
 				}
 			}
@@ -68,6 +128,26 @@
 					"english": {
 						"1774659088": "Summer Blue",
 						"3175901226": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"3175901226": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"1774659088": "Bleu d'été"
+					},
+					"german": {
+						"3175901226": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"1774659088": "Sommerblau"
+					},
+					"italian": {
+						"3175901226": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"1774659088": "Blu estivo"
+					},
+					"russian": {
+						"3175901226": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"1774659088": "Летний голубой"
+					},
+					"spanish": {
+						"3175901226": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"1774659088": "Verano Azul"
 					}
 				}
 			}
@@ -83,6 +163,26 @@
 					"english": {
 						"2978719530": "Summer Blue",
 						"3533044117": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"3533044117": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2978719530": "Bleu d'été"
+					},
+					"german": {
+						"3533044117": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2978719530": "Sommerblau"
+					},
+					"italian": {
+						"3533044117": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2978719530": "Blu estivo"
+					},
+					"russian": {
+						"3533044117": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2978719530": "Летний голубой"
+					},
+					"spanish": {
+						"3533044117": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2978719530": "Verano Azul"
 					}
 				}
 			}
@@ -98,6 +198,26 @@
 					"english": {
 						"134957393": "Summer Blue",
 						"2101382595": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"2101382595": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"134957393": "Bleu d'été"
+					},
+					"german": {
+						"2101382595": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"134957393": "Sommerblau"
+					},
+					"italian": {
+						"2101382595": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"134957393": "Blu estivo"
+					},
+					"russian": {
+						"2101382595": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"134957393": "Летний голубой"
+					},
+					"spanish": {
+						"2101382595": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"134957393": "Verano Azul"
 					}
 				}
 			}
@@ -113,6 +233,26 @@
 					"english": {
 						"2627471231": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"2814457931": "Summer Blue"
+					},
+					"french": {
+						"2627471231": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2814457931": "Bleu d'été"
+					},
+					"german": {
+						"2627471231": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2814457931": "Sommerblau"
+					},
+					"italian": {
+						"2627471231": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2814457931": "Blu estivo"
+					},
+					"russian": {
+						"2627471231": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2814457931": "Летний голубой"
+					},
+					"spanish": {
+						"2627471231": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2814457931": "Verano Azul"
 					}
 				}
 			}
@@ -128,6 +268,26 @@
 					"english": {
 						"2052724919": "Summer Blue",
 						"3635577953": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"3635577953": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2052724919": "Bleu d'été"
+					},
+					"german": {
+						"3635577953": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2052724919": "Sommerblau"
+					},
+					"italian": {
+						"3635577953": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2052724919": "Blu estivo"
+					},
+					"russian": {
+						"3635577953": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2052724919": "Летний голубой"
+					},
+					"spanish": {
+						"3635577953": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2052724919": "Verano Azul"
 					}
 				}
 			}
@@ -143,6 +303,26 @@
 					"english": {
 						"972885031": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"2762453674": "Summer Blue"
+					},
+					"french": {
+						"972885031": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2762453674": "Bleu d'été"
+					},
+					"german": {
+						"972885031": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2762453674": "Sommerblau"
+					},
+					"italian": {
+						"972885031": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2762453674": "Blu estivo"
+					},
+					"russian": {
+						"972885031": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2762453674": "Летний голубой"
+					},
+					"spanish": {
+						"972885031": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2762453674": "Verano Azul"
 					}
 				}
 			}
@@ -158,6 +338,26 @@
 					"english": {
 						"1490534793": "Summer Blue",
 						"4241939803": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"4241939803": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"1490534793": "Bleu d'été"
+					},
+					"german": {
+						"4241939803": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"1490534793": "Sommerblau"
+					},
+					"italian": {
+						"4241939803": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"1490534793": "Blu estivo"
+					},
+					"russian": {
+						"4241939803": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"1490534793": "Летний голубой"
+					},
+					"spanish": {
+						"4241939803": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"1490534793": "Verano Azul"
 					}
 				}
 			}
@@ -173,6 +373,26 @@
 					"english": {
 						"2053833950": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"2347383834": "Summer Blue"
+					},
+					"french": {
+						"2053833950": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2347383834": "Bleu d'été"
+					},
+					"german": {
+						"2053833950": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2347383834": "Sommerblau"
+					},
+					"italian": {
+						"2053833950": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2347383834": "Blu estivo"
+					},
+					"russian": {
+						"2053833950": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2347383834": "Летний голубой"
+					},
+					"spanish": {
+						"2053833950": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2347383834": "Verano Azul"
 					}
 				}
 			}
@@ -188,6 +408,26 @@
 					"english": {
 						"252086724": "Summer Blue",
 						"678625422": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"678625422": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"252086724": "Bleu d'été"
+					},
+					"german": {
+						"678625422": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"252086724": "Sommerblau"
+					},
+					"italian": {
+						"678625422": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"252086724": "Blu estivo"
+					},
+					"russian": {
+						"678625422": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"252086724": "Летний голубой"
+					},
+					"spanish": {
+						"678625422": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"252086724": "Verano Azul"
 					}
 				}
 			}
@@ -203,6 +443,26 @@
 					"english": {
 						"3362995256": "Summer Blue",
 						"4079878924": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					},
+					"french": {
+						"4079878924": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"3362995256": "Bleu d'été"
+					},
+					"german": {
+						"4079878924": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"3362995256": "Sommerblau"
+					},
+					"italian": {
+						"4079878924": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"3362995256": "Blu estivo"
+					},
+					"russian": {
+						"4079878924": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"3362995256": "Летний голубой"
+					},
+					"spanish": {
+						"4079878924": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"3362995256": "Verano Azul"
 					}
 				}
 			}
@@ -218,6 +478,26 @@
 					"english": {
 						"2681050670": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
 						"2760943898": "Summer Blue"
+					},
+					"french": {
+						"2681050670": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+						"2760943898": "Bleu d'été"
+					},
+					"german": {
+						"2681050670": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+						"2760943898": "Sommerblau"
+					},
+					"italian": {
+						"2681050670": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+						"2760943898": "Blu estivo"
+					},
+					"russian": {
+						"2681050670": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+						"2760943898": "Летний голубой"
+					},
+					"spanish": {
+						"2681050670": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+						"2760943898": "Verano Azul"
 					}
 				}
 			}
