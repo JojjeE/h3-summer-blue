@@ -6,4 +6,4 @@ A tasteful light gray suit with a powder blue shirt. Install it for Peacock or r
 
 ---
 
-`Jojje.SummerBlue` v0.2.0, by Jojje. This README was automatically generated from the mod's manifest.
+`Jojje.SummerBlue` v1.0.0, by Jojje. This README was automatically generated from the mod's manifest.
