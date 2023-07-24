@@ -1,9 +1,226 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "Jojje.SummerBlue",
+	"name": "Summer Blue",
+	"description": "A tasteful light gray suit with a powder blue shirt. Install it for Peacock or replace a casual suit of your choice.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.30.4",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"contentFolders": ["base"],
+	"options": [
+		{
+			"group": "Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["replace/addon"],
+			"blobsFolders": ["blobs/addon"],
+			"localisedLines": {
+				"00B000557F8B2D4A": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC",
+				"007AF0C1FEA92620": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Summer Blue"
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/bangkok"],
+			"blobsFolders": ["blobs/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"4086875141": "Summer Blue"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sapienza"],
+			"blobsFolders": ["blobs/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"3648979387": "Summer Blue"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/miami"],
+			"blobsFolders": ["blobs/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Summer Blue",
+						"3175901226": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sanfortuna"],
+			"blobsFolders": ["blobs/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Summer Blue",
+						"3533044117": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersuave"],
+			"blobsFolders": ["blobs/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Summer Blue",
+						"2101382595": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersightseeing"],
+			"blobsFolders": ["blobs/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"2814457931": "Summer Blue"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["replace/casualundercover"],
+			"blobsFolders": ["blobs/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Summer Blue",
+						"3635577953": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["replace/midnightblack"],
+			"blobsFolders": ["blobs/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"2762453674": "Summer Blue"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/marrakesh"],
+			"blobsFolders": ["blobs/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Summer Blue",
+						"4241939803": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["replace/tropicalsuit"],
+			"blobsFolders": ["blobs/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"2347383834": "Summer Blue"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["replace/smartcasual"],
+			"blobsFolders": ["blobs/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Summer Blue",
+						"678625422": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["replace/raver"],
+			"blobsFolders": ["blobs/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Summer Blue",
+						"4079878924": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["replace/luckyducky"],
+			"blobsFolders": ["blobs/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+						"2760943898": "Summer Blue"
+					}
+				}
+			}
+		}
+	]
 }

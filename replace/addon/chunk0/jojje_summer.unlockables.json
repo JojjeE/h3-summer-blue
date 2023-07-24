@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_JOJJE_SUMMER": {
+		"Id": "TOKEN_OUTFIT_HERO_JOJJE_SUMMER",
+		"Guid": "3e2b5437-7d90-4d15-a8d4-6b9eca4dfe4f",
+		"Type": "disguise",
+		"Subtype": "formal",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "e5e40952-283a-4fb0-9ce6-ebd9220d1313",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

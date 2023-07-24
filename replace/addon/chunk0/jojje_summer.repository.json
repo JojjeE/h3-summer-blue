@@ -1,0 +1,14 @@
+{
+	"e5e40952-283a-4fb0-9ce6-ebd9220d1313": {
+		"ID_": "e5e40952-283a-4fb0-9ce6-ebd9220d1313",
+		"CommonName": "CHAR_Global_Hero_Jojje_Summer_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_jojje_summer.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_JOJJE_SUMMER"
+	}
+}

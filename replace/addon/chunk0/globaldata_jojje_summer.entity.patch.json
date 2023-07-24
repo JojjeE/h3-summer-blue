@@ -1,0 +1,97 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed313fb9e20dfe",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_JojjeSummer_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedaa7f402a8dd0"] },
+						"m_sId": { "type": "ZGuid", "value": "e5e40952-283a-4fb0-9ce6-ebd9220d1313" },
+						"m_bCanCallForHelp": { "type": "bool", "value": true },
+						"m_sCommonName": { "type": "ZString", "value": "CHAR_Global_Hero_JojjeSummer_M" },
+						"m_sTitle": { "type": "ZString", "value": "Jojje Summer" },
+						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_47Suit" },
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "007AF0C1FEA92620", "flag": "5F" }
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00B000557F8B2D4A", "flag": "5F" }
+						},
+						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+						"m_bIsHitmanSuit": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedaa7f402a8dd0",
+				{
+					"parent": "feed313fb9e20dfe",
+					"name": "charset_agent47_jojje_summer",
+					"factory": "0025A3BB1ACB1AFC",
+					"blueprint": "0066C696702CE5FE"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed43c2729185ec",
+				{
+					"parent": "feed313fb9e20dfe",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed313fb9e20dfe"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed7be3f538c14a",
+				{
+					"parent": "feed313fb9e20dfe",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed313fb9e20dfe"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb275e6d21491",
+				{
+					"parent": "feed313fb9e20dfe",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed313fb9e20dfe" } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
