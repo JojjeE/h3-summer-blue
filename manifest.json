@@ -5,7 +5,7 @@
 	"description": "A tasteful light gray suit with a powder blue shirt. Install it for Peacock or replace a casual suit of your choice.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.30.4",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"contentFolders": ["base"],
 	"options": [
 		{
@@ -221,6 +221,46 @@
 					}
 				}
 			}
+		},
+		{
+			"group": "Gloves",
+			"name": "None (Default)",
+			"type": "select",
+			"tooltip": "Bare hands.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Gloves",
+			"name": "Leather gloves (Black)",
+			"type": "select",
+			"tooltip": "Black leather gloves.",
+			"image": "leathergloves_black.jpg",
+			"contentFolders": ["variant/gloves/leather_black"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Leather gloves (Brown)",
+			"type": "select",
+			"tooltip": "Brown leather gloves.",
+			"image": "leathergloves_brown.jpg",
+			"contentFolders": ["variant/gloves/leather_brown"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Driving gloves (Black)",
+			"type": "select",
+			"tooltip": "Black driving gloves.",
+			"image": "drivinggloves_black.jpg",
+			"contentFolders": ["variant/gloves/driving_black"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Driving gloves (Brown)",
+			"type": "select",
+			"tooltip": "Brown driving gloves.",
+			"image": "drivinggloves_brown.jpg",
+			"contentFolders": ["variant/gloves/driving_brown"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-summer-blue/releases/latest/download/updates.json"
 }

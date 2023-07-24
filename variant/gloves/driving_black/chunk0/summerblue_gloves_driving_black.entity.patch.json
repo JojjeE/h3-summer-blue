@@ -1,0 +1,10 @@
+{
+	"tempHash": "0017CF2DAC903CE5",
+	"tbluHash": "00EFD67743ABD4F0",
+	"patch": [
+		{ "SubEntityOperation": ["fcc86c8d2cb9e551", { "SetName": "Agent47_Gloves_Driving" }] },
+		{ "SubEntityOperation": ["fcc86c8d2cb9e551", { "SetFactory": "008897FB54E3DB82" }] },
+		{ "SubEntityOperation": ["fcc86c8d2cb9e551", { "SetBlueprint": "00F716010CB776C3" }] }
+	],
+	"patchVersion": 6
+}
