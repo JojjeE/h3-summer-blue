@@ -1,0 +1,43 @@
+{
+	"tempHash": "0017CF2DAC903CE5",
+	"tbluHash": "00EFD67743ABD4F0",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"33e3bdb87d31bd03",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": { "resource": "00AFAF45C3BFC296", "flag": "5F" }
+					}
+				}
+			]
+		},
+		{ "SubEntityOperation": ["feedf55224946ca4", { "SetName": "male_reg_suit_jacket_01_open_anisotropic" }] },
+		{ "SubEntityOperation": ["feedf55224946ca4", { "SetFactory": "0030064A0D638CFB" }] },
+		{ "SubEntityOperation": ["feedf55224946ca4", { "SetBlueprint": "0008604BF832BE95" }] },
+		{
+			"SubEntityOperation": [
+				"feedf55224946ca4",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_03",
+						"value": { "resource": "00E1A2FBAD24C628", "flag": "5F" }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"feedf55224946ca4",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_01",
+						"value": { "resource": "00A1B645711777B9", "flag": "5F" }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

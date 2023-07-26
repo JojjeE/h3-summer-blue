@@ -540,6 +540,21 @@
 			"tooltip": "Brown driving gloves.",
 			"image": "drivinggloves_brown.jpg",
 			"contentFolders": ["variant/gloves/driving_brown"]
+		},
+		{
+			"group": "Jacket",
+			"name": "Buttoned (Default)",
+			"type": "select",
+			"tooltip": "Buttoned jacket.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Jacket",
+			"name": "Unbuttoned",
+			"type": "select",
+			"tooltip": "Unbutton the jacket. (You may be able to see through the shirt at some angles. Tough luck.)",
+			"image": "unbuttoned_jacket.jpg",
+			"contentFolders": ["variant/jacket/unbuttoned"]
 		}
 	],
 	"updateCheck": "https://github.com/JojjeE/h3-summer-blue/releases/latest/download/updates.json"

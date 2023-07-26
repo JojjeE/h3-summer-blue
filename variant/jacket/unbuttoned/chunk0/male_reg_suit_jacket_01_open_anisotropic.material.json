@@ -1,0 +1,222 @@
+{
+	"$schema": "https://glaciermodding.org/schemas/material.schema.json",
+	"MATI": "00A4C3DAEF778747",
+	"MATT": "0030064A0D638CFB",
+	"MATB": "0008604BF832BE95",
+	"MATE": "[[assembly:/_pro/characters/materialclasses/basic_hair.materialclass].fx](dx11).pc_mate",
+	"ERES": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_char_cloth.template?/fx_md_char_cloth.entitytemplate].pc_entityresource",
+	"TYPE": "Standard",
+	"Material": {
+		"Instance": [
+			{
+				"Name": "male_reg_suit_jacket_01_open_anisotropic.mi",
+				"Tags": "",
+				"Binder": [
+					{
+						"Render State": [
+							{
+								"Name": "RenderState",
+								"Enabled": 1,
+								"Blend Enabled": 0,
+								"Decal Blend Diffuse": 0,
+								"Decal Blend Normal": 0,
+								"Decal Blend Specular": 0,
+								"Decal Blend Roughness": 0,
+								"Decal Blend Emission": 0,
+								"Alpha Test Enabled": 0,
+								"Alpha Reference": 255,
+								"Fog Enabled": 1,
+								"Culling Mode": "DontCare",
+								"Z Bias": 0,
+								"Z Offset": 0.0,
+								"Subsurface Red": 0.0,
+								"Subsurface Green": 0.0,
+								"Subsurface Blue": 0.0,
+								"Subsurface Value": 0.0
+							}
+						],
+						"Float Value": [
+							{
+								"Name": "gm_mTransform2D_01",
+								"Enabled": 1,
+								"Value": [1.0, -0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+							},
+							{
+								"Name": "ConstantVector1D_06_Value",
+								"Enabled": 1,
+								"Value": 1.0
+							},
+							{
+								"Name": "ConstantVector1D_10_Value",
+								"Enabled": 1,
+								"Value": -1.0
+							},
+							{
+								"Name": "ConstantVector1D_04_Value",
+								"Enabled": 1,
+								"Value": 0.0
+							},
+							{
+								"Name": "ConstantVector1D_05_Value",
+								"Enabled": 1,
+								"Value": 0.699999988079071
+							},
+							{
+								"Name": "ConstantVector1D_09_Value",
+								"Enabled": 1,
+								"Value": 1.2000000476837158
+							},
+							{
+								"Name": "ConstantVector1D_03_Value",
+								"Enabled": 1,
+								"Value": 1.0
+							},
+							{
+								"Name": "ConstantVector1D_01_Value",
+								"Enabled": 1,
+								"Value": 0.5
+							},
+							{
+								"Name": "ConstantVector1D_07_Value",
+								"Enabled": 1,
+								"Value": 0.0
+							},
+							{
+								"Name": "ConstantVector1D_08_Value",
+								"Enabled": 1,
+								"Value": 0.10000000149011612
+							},
+							{
+								"Name": "ConstantVector1D_15_Value",
+								"Enabled": 1,
+								"Value": 0.0
+							},
+							{
+								"Name": "ConstantVector1D_16_Value",
+								"Enabled": 1,
+								"Value": 0.0
+							},
+							{
+								"Name": "ShadowAlphaCutoffThreshold",
+								"Enabled": 1,
+								"Value": 0.20000000298023224
+							}
+						],
+						"Texture": [
+							{
+								"Name": "mapTexture2DNormal_01",
+								"Enabled": 1,
+								"Texture Id": "008631A82AC9BD09",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsNormalMap"
+							},
+							{
+								"Name": "mapTexture2D_03",
+								"Enabled": 1,
+								"Texture Id": "00E1A2FBAD24C628",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsColorMap"
+							},
+							{
+								"Name": "mapTexture2D_01",
+								"Enabled": 1,
+								"Texture Id": "00A1B645711777B9",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsColorMap"
+							},
+							{
+								"Name": "mapTexture2DCompoundNormal_01",
+								"Enabled": 1,
+								"Texture Id": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex",
+								"Tiling U": "",
+								"Tiling V": "",
+								"Type": "AsCompoundNormal"
+							}
+						],
+						"Color": [
+							{
+								"Name": "ConstantColorRGB_05_Value",
+								"Enabled": 1,
+								"Value": [1.0, 0.9098039865493774, 0.9098039865493774]
+							},
+							{
+								"Name": "ConstantColorRGB_02_Value",
+								"Enabled": 1,
+								"Value": [0.29019609093666077, 0.27450981736183167, 0.2823529541492462]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"Overrides": {
+		"ConstantVector1D_06_Value": 1.0,
+		"Texture": {
+			"Texture2DNormal_01": "008631A82AC9BD09",
+			"Texture2D_03": "00E1A2FBAD24C628",
+			"Texture2D_01": "00A1B645711777B9",
+			"Texture2DCompoundNormal_01": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex"
+		},
+		"ConstantVector1D_10_Value": -1.0,
+		"ConstantVector1D_04_Value": 0.0,
+		"ConstantVector1D_05_Value": 0.699999988079071,
+		"ConstantVector1D_09_Value": 1.2000000476837158,
+		"Color": {
+			"ConstantColorRGB_05_Value": [1.0, 0.9098039865493774, 0.9098039865493774],
+			"ConstantColorRGB_02_Value": [0.29019609093666077, 0.27450981736183167, 0.2823529541492462]
+		},
+		"ConstantVector1D_03_Value": 1.0,
+		"ConstantVector1D_01_Value": 0.5,
+		"ConstantVector1D_07_Value": 0.0,
+		"ConstantVector1D_08_Value": 0.10000000149011612,
+		"ConstantVector1D_15_Value": 0.0,
+		"ConstantVector1D_16_Value": 0.0,
+		"ShadowAlphaCutoffThreshold": 0.20000000298023224
+	},
+	"Flags": {
+		"Class": {
+			"REFLECTION2D": false,
+			"REFRACTION2D": false,
+			"LIGHTING": true,
+			"EMISSIVE": false,
+			"DISCARD": true,
+			"LM_SKIN": false,
+			"PRIMCLASS_STANDARD": true,
+			"PRIMCLASS_LINKED": false,
+			"PRIMCLASS_WEIGHTED": false,
+			"DOFOVERRIDE": false,
+			"USES_DEFAULT_VS": true,
+			"USES_SPRITE_SA_VS": false,
+			"USES_SPRITE_AO_VS": false,
+			"ALPHA": true,
+			"USES_SIMPLE_SHADER": true,
+			"DISABLE_INSTANCING": false,
+			"LM_HAIR": true,
+			"UNKNOWN_1": false,
+			"UNKNOWN_2": false,
+			"UNKNOWN_3": false,
+			"UNKNOWN_4": false,
+			"UNKNOWN_5": false
+		},
+		"Instance": {
+			"OPAQUE_EMISSIVE": false,
+			"TRANS_EMISSIVE": false,
+			"TRANSADD_EMISSIVE": false,
+			"OPAQUE_LIT": true,
+			"TRANS_LIT": false,
+			"DECAL": false,
+			"REFRACTIVE": false,
+			"LM_SKIN": false,
+			"LM_HAIR": false,
+			"FORCE_EMISSIVE": false,
+			"DISABLE_SHADER_LOD": true,
+			"DISCARD": false,
+			"DECAL_EMISSIVE": false,
+			"WATER_CLIPPING": false
+		}
+	}
+}
