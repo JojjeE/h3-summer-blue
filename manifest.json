@@ -552,7 +552,7 @@
 			"group": "Jacket",
 			"name": "Unbuttoned",
 			"type": "select",
-			"tooltip": "Unbutton the jacket. (You may be able to see through the shirt at some angles. Tough luck.)",
+			"tooltip": "Unbutton the jacket.",
 			"image": "unbuttoned_jacket.jpg",
 			"contentFolders": ["variant/jacket/unbuttoned"]
 		}
