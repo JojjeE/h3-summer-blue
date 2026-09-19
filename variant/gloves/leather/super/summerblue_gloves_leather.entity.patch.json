@@ -1,0 +1,36 @@
+{
+	"factory": "0017CF2DAC903CE5",
+	"blueprint": "00EFD67743ABD4F0",
+	"patch": [
+		{ "PatchEntity": ["fcc86c8d2cb9e551", { "SetName": "Gloves_Leather" }] },
+		{
+			"PatchEntity": [
+				"fcc86c8d2cb9e551",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_leather.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"fcc86c8d2cb9e551",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_hands.template?/gloves_leather.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"fcc86c8d2cb9e551",
+				{ "AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#{option:sb-gloves-color}" }] }
+			]
+		},
+		{
+			"PatchEntity": [
+				"fcc86c8d2cb9e551",
+				{ "AddProperty": ["ConstantVector1D_01_Value", { "type": "float32", "value": 5 }] }
+			]
+		}
+	],
+	"patchVersion": 7
+}

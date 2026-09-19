@@ -1,0 +1,61 @@
+{
+	"factory": "0017CF2DAC903CE5",
+	"blueprint": "00EFD67743ABD4F0",
+	"patch": [
+		{
+			"PatchEntity": [
+				"33e3bdb87d31bd03",
+				{
+					"PatchPropertyValue": [
+						"m_pMeshResource",
+						{
+							"Set": {
+								"type": "ZRuntimeResourceID",
+								"value": { "resource": "00AFAF45C3BFC296", "type": "normal" }
+							}
+						},
+						false
+					]
+				}
+			]
+		},
+		{ "PatchEntity": ["feedf55224946ca4", { "SetName": "male_reg_suit_jacket_01_open_anisotropic" }] },
+		{ "PatchEntity": ["feedf55224946ca4", { "SetFactory": "0030064A0D638CFB" }] },
+		{ "PatchEntity": ["feedf55224946ca4", { "SetBlueprint": "0008604BF832BE95" }] },
+		{
+			"PatchEntity": [
+				"feedf55224946ca4",
+				{
+					"PatchPropertyValue": [
+						"Texture2D_03",
+						{
+							"Set": {
+								"type": "ZRuntimeResourceID",
+								"value": { "resource": "00E1A2FBAD24C628", "type": "normal" }
+							}
+						},
+						false
+					]
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"feedf55224946ca4",
+				{
+					"PatchPropertyValue": [
+						"Texture2D_01",
+						{
+							"Set": {
+								"type": "ZRuntimeResourceID",
+								"value": { "resource": "00A1B645711777B9", "type": "normal" }
+							}
+						},
+						false
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

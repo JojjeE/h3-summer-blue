@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_HIPPO_REWARD_HERO_HOTSUMMER19_M_PRO167930_NAME_C7B117FD-16CE-49A5-9FB2-5AD8376785C8": {
+			"english": "Summer Blue",
+			"french": "Bleu d'été",
+			"german": "Sommerblau",
+			"italian": "Blu estivo",
+			"russian": "Летний голубой",
+			"spanish": "Verano Azul"
+		},
+		"CHAR_HIPPO_REWARD_HERO_HOTSUMMER19_M_PRO167930_DESCRIPTION_C7B117FD-16CE-49A5-9FB2-5AD8376785C8": {
+			"english": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+			"french": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+			"german": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+			"italian": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+			"russian": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
+			"spanish": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
+		}
+	}
+}

@@ -1,561 +1,258 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"$schema": "../../manifest-schema.json",
 	"id": "Jojje.SummerBlue",
 	"name": "Summer Blue",
 	"description": "A tasteful light gray suit with a powder blue shirt. Install it for Peacock or replace a casual suit of your choice.",
 	"authors": ["Jojje"],
-	"frameworkVersion": "2.33.26",
 	"version": "1.3.0",
-	"contentFolders": ["base"],
+	"frameworkVersion": "3.0.0",
+	"url": "https://github.com/JojjeE/h3-summer-blue",
+	"conditions": { "supportedGames": ["h3"] },
+	"data": { "contentFolders": ["base"] },
 	"options": [
 		{
-			"group": "Replace",
-			"name": "Peacock Addon",
-			"type": "select",
-			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"enabledByDefault": true,
-			"contentFolders": ["replace/addon"],
-			"blobsFolders": ["blobs/addon"],
-			"localisedLines": {
-				"00B000557F8B2D4A": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC",
-				"007AF0C1FEA92620": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Summer Blue"
+			"id": "sb-install",
+			"type": "selection",
+			"name": "Replace",
+			"defaultValue": "sb-install-peacock",
+			"options": [
+				{
+					"id": "sb-install-peacock",
+					"name": "Peacock Addon",
+					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
+					"data": {
+						"contentFolders": ["replace/addon"],
+						"blobFolders": ["blobs/addon"],
+						"localisation": {
+							"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": {
+								"english": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
+								"french": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
+								"italian": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
+								"german": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
+								"spanish": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
+								"russian": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
+							},
+							"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": {
+								"english": "Summer Blue",
+								"french": "Bleu d'été",
+								"italian": "Blu estivo",
+								"german": "Sommerblau",
+								"spanish": "Verano Azul",
+								"russian": "Летний голубой"
+							}
+						},
+						"localisedLines": {
+							"00B000557F8B2D4A": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC",
+							"007AF0C1FEA92620": "UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME"
+						}
+					}
 				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Bleu d'été"
+				{
+					"id": "sb-install-casual",
+					"name": "Casual Suit with Gloves",
+					"data": {
+						"contentFolders": ["replace/bangkok"],
+						"blobFolders": ["blobs/bangkok"]
+					}
 				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Sommerblau"
+				{
+					"id": "sb-install-italian",
+					"name": "Italian Suit with Gloves",
+					"data": {
+						"contentFolders": ["replace/sapienza"],
+						"blobFolders": ["blobs/sapienza"]
+					}
 				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Blu estivo"
+				{
+					"id": "sb-install-floridafit",
+					"name": "Florida Fit with Gloves",
+					"data": {
+						"contentFolders": ["replace/miami"],
+						"blobFolders": ["blobs/miami"]
+					}
 				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Летний голубой"
+				{
+					"id": "sb-install-casualtourist",
+					"name": "Casual Tourist with Gloves",
+					"data": {
+						"contentFolders": ["replace/sanfortuna"],
+						"blobFolders": ["blobs/sanfortuna"]
+					}
 				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_DESC": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-					"UI_TOKEN_OUTFIT_HERO_JOJJE_SUMMER_NAME": "Verano Azul"
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Casual Suit with Gloves",
-			"type": "select",
-			"contentFolders": ["replace/bangkok"],
-			"blobsFolders": ["blobs/bangkok"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"2741280242": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"4086875141": "Summer Blue"
-					},
-					"french": {
-						"2741280242": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"4086875141": "Bleu d'été"
-					},
-					"german": {
-						"2741280242": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"4086875141": "Sommerblau"
-					},
-					"italian": {
-						"2741280242": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"4086875141": "Blu estivo"
-					},
-					"russian": {
-						"2741280242": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"4086875141": "Летний голубой"
-					},
-					"spanish": {
-						"2741280242": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"4086875141": "Verano Azul"
+				{
+					"id": "sb-install-summersuave",
+					"name": "Summer Suave Suit",
+					"data": {
+						"contentFolders": ["replace/summersuave"],
+						"blobFolders": ["blobs/summersuave"]
+					}
+				},
+				{
+					"id": "sb-install-summersightseeing",
+					"name": "Summer Sightseeing Suit",
+					"data": {
+						"contentFolders": ["replace/summersightseeing"],
+						"blobFolders": ["blobs/summersightseeing"]
+					}
+				},
+				{
+					"id": "sb-install-casualundercover",
+					"name": "Casual Undercover",
+					"data": {
+						"contentFolders": ["replace/casualundercover"],
+						"blobFolders": ["blobs/casualundercover"]
+					}
+				},
+				{
+					"id": "sb-install-midnightblack",
+					"name": "Midnight Black Suit",
+					"data": {
+						"contentFolders": ["replace/midnightblack"],
+						"blobFolders": ["blobs/midnightblack"]
+					}
+				},
+				{
+					"id": "sb-install-summersuit",
+					"name": "Summer Suit with Gloves",
+					"data": {
+						"contentFolders": ["replace/marrakesh"],
+						"blobFolders": ["blobs/marrakesh"]
+					}
+				},
+				{
+					"id": "sb-install-tropical",
+					"name": "Tropical Suit",
+					"data": {
+						"contentFolders": ["replace/tropicalsuit"],
+						"blobFolders": ["blobs/tropicalsuit"]
+					}
+				},
+				{
+					"id": "sb-install-smartcasual",
+					"name": "Smart Casual Suit",
+					"data": {
+						"contentFolders": ["replace/smartcasual"],
+						"blobFolders": ["blobs/smartcasual"]
+					}
+				},
+				{
+					"id": "sb-install-raver",
+					"name": "The Raver",
+					"data": {
+						"contentFolders": ["replace/raver"],
+						"blobFolders": ["blobs/raver"]
+					}
+				},
+				{
+					"id": "sb-install-ducky",
+					"name": "Lucky Ducky",
+					"data": {
+						"contentFolders": ["replace/luckyducky"],
+						"blobFolders": ["blobs/luckyducky"]
 					}
 				}
-			}
+			]
 		},
 		{
-			"group": "Replace",
-			"name": "Italian Suit with Gloves",
-			"type": "select",
-			"contentFolders": ["replace/sapienza"],
-			"blobsFolders": ["blobs/sapienza"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"3346035357": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"3648979387": "Summer Blue"
-					},
-					"french": {
-						"3346035357": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"3648979387": "Bleu d'été"
-					},
-					"german": {
-						"3346035357": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"3648979387": "Sommerblau"
-					},
-					"italian": {
-						"3346035357": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"3648979387": "Blu estivo"
-					},
-					"russian": {
-						"3346035357": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"3648979387": "Летний голубой"
-					},
-					"spanish": {
-						"3346035357": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"3648979387": "Verano Azul"
+			"id": "sb-gloves",
+			"type": "optionGroup",
+			"name": "Gloves",
+			"options": [
+				{
+					"id": "sb-gloves-mdl",
+					"type": "selection",
+					"name": "Model",
+					"defaultValue": "sb-gloves-none",
+					"options": [
+						{
+							"id": "sb-gloves-none",
+							"name": "None",
+							"description": "Bare hands."
+						},
+						{
+							"id": "sb-gloves-leather",
+							"name": "Leather gloves",
+							"description": "Leather gloves.",
+							"image": "leathergloves_black.jpg",
+							"data": {
+								"contentFolders": ["variant/gloves/leather"]
+							}
+						},
+						{
+							"id": "sb-gloves-driving",
+							"name": "Driving gloves",
+							"description": "Driving gloves.",
+							"image": "drivinggloves_black.jpg",
+							"data": {
+								"contentFolders": ["variant/gloves/driving"]
+							}
+						}
+					]
+				},
+				{
+					"id": "sb-gloves-color",
+					"name": "Color",
+					"type": "color",
+					"defaultValue": "#3d3838",
+					"description": "Color of the gloves."
+				}
+			],
+			"presets": [
+				{
+					"name": "Black leather gloves",
+					"id": "sb-gloves-leather-black",
+					"values": {
+						"sb-gloves-mdl": "sb-gloves-leather",
+						"sb-gloves-color": "#2e2e2e"
+					}
+				},
+				{
+					"name": "Brown leather gloves",
+					"id": "sb-gloves-leather-brown",
+					"values": {
+						"sb-gloves-mdl": "sb-gloves-leather",
+						"sb-gloves-color": "#473120"
+					}
+				},
+				{
+					"name": "Black driving gloves",
+					"id": "sb-gloves-driving-black",
+					"values": {
+						"sb-gloves-mdl": "sb-gloves-driving",
+						"sb-gloves-color": "#3d3838"
+					}
+				},
+				{
+					"name": "Brown driving gloves",
+					"id": "sb-gloves-driving-brown",
+					"values": {
+						"sb-gloves-mdl": "sb-gloves-driving",
+						"sb-gloves-color": "#d1986d"
 					}
 				}
-			}
+			]
 		},
 		{
-			"group": "Replace",
-			"name": "Florida Fit with Gloves",
-			"type": "select",
-			"contentFolders": ["replace/miami"],
-			"blobsFolders": ["blobs/miami"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"1774659088": "Summer Blue",
-						"3175901226": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"1774659088": "Bleu d'été",
-						"3175901226": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"1774659088": "Sommerblau",
-						"3175901226": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"1774659088": "Blu estivo",
-						"3175901226": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"1774659088": "Летний голубой",
-						"3175901226": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"1774659088": "Verano Azul",
-						"3175901226": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
+			"id": "sb-jacket",
+			"type": "selection",
+			"name": "Jacket",
+			"defaultValue": "change-this-to-something-else-3ad73d0cf5c9e25d",
+			"options": [
+				{
+					"id": "change-this-to-something-else-3ad73d0cf5c9e25d",
+					"name": "Buttoned",
+					"description": "Buttoned jacket."
+				},
+				{
+					"id": "change-this-to-something-else-1bfae700d9cec14d",
+					"name": "Unbuttoned",
+					"description": "Unbutton the jacket.",
+					"image": "unbuttoned_jacket.jpg",
+					"data": {
+						"contentFolders": ["variant/jacket/unbuttoned"]
 					}
 				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Casual Tourist with Gloves",
-			"type": "select",
-			"contentFolders": ["replace/sanfortuna"],
-			"blobsFolders": ["blobs/sanfortuna"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"2978719530": "Summer Blue",
-						"3533044117": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"2978719530": "Bleu d'été",
-						"3533044117": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"2978719530": "Sommerblau",
-						"3533044117": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"2978719530": "Blu estivo",
-						"3533044117": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"2978719530": "Летний голубой",
-						"3533044117": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"2978719530": "Verano Azul",
-						"3533044117": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Summer Suave Suit",
-			"type": "select",
-			"contentFolders": ["replace/summersuave"],
-			"blobsFolders": ["blobs/summersuave"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"134957393": "Summer Blue",
-						"2101382595": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"134957393": "Bleu d'été",
-						"2101382595": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"134957393": "Sommerblau",
-						"2101382595": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"134957393": "Blu estivo",
-						"2101382595": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"134957393": "Летний голубой",
-						"2101382595": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"134957393": "Verano Azul",
-						"2101382595": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Summer Sightseeing Suit",
-			"type": "select",
-			"contentFolders": ["replace/summersightseeing"],
-			"blobsFolders": ["blobs/summersightseeing"],
-			"localisationOverrides": {
-				"004B8C5124A49543": {
-					"english": {
-						"2627471231": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"2814457931": "Summer Blue"
-					},
-					"french": {
-						"2627471231": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"2814457931": "Bleu d'été"
-					},
-					"german": {
-						"2627471231": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"2814457931": "Sommerblau"
-					},
-					"italian": {
-						"2627471231": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"2814457931": "Blu estivo"
-					},
-					"russian": {
-						"2627471231": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"2814457931": "Летний голубой"
-					},
-					"spanish": {
-						"2627471231": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"2814457931": "Verano Azul"
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Casual Undercover",
-			"type": "select",
-			"contentFolders": ["replace/casualundercover"],
-			"blobsFolders": ["blobs/casualundercover"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"2052724919": "Summer Blue",
-						"3635577953": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"2052724919": "Bleu d'été",
-						"3635577953": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"2052724919": "Sommerblau",
-						"3635577953": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"2052724919": "Blu estivo",
-						"3635577953": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"2052724919": "Летний голубой",
-						"3635577953": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"2052724919": "Verano Azul",
-						"3635577953": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Midnight Black Suit",
-			"type": "select",
-			"contentFolders": ["replace/midnightblack"],
-			"blobsFolders": ["blobs/midnightblack"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"972885031": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"2762453674": "Summer Blue"
-					},
-					"french": {
-						"972885031": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"2762453674": "Bleu d'été"
-					},
-					"german": {
-						"972885031": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"2762453674": "Sommerblau"
-					},
-					"italian": {
-						"972885031": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"2762453674": "Blu estivo"
-					},
-					"russian": {
-						"972885031": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"2762453674": "Летний голубой"
-					},
-					"spanish": {
-						"972885031": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"2762453674": "Verano Azul"
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Summer Suit with Gloves",
-			"type": "select",
-			"contentFolders": ["replace/marrakesh"],
-			"blobsFolders": ["blobs/marrakesh"],
-			"localisationOverrides": {
-				"00985A1100E5EDDC": {
-					"english": {
-						"1490534793": "Summer Blue",
-						"4241939803": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"1490534793": "Bleu d'été",
-						"4241939803": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"1490534793": "Sommerblau",
-						"4241939803": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"1490534793": "Blu estivo",
-						"4241939803": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"1490534793": "Летний голубой",
-						"4241939803": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"1490534793": "Verano Azul",
-						"4241939803": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Tropical Suit",
-			"type": "select",
-			"contentFolders": ["replace/tropicalsuit"],
-			"blobsFolders": ["blobs/tropicalsuit"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"2053833950": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"2347383834": "Summer Blue"
-					},
-					"french": {
-						"2053833950": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"2347383834": "Bleu d'été"
-					},
-					"german": {
-						"2053833950": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"2347383834": "Sommerblau"
-					},
-					"italian": {
-						"2053833950": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"2347383834": "Blu estivo"
-					},
-					"russian": {
-						"2053833950": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"2347383834": "Летний голубой"
-					},
-					"spanish": {
-						"2053833950": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"2347383834": "Verano Azul"
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Smart Casual Suit",
-			"type": "select",
-			"contentFolders": ["replace/smartcasual"],
-			"blobsFolders": ["blobs/smartcasual"],
-			"localisationOverrides": {
-				"009F430D046716BE": {
-					"english": {
-						"252086724": "Summer Blue",
-						"678625422": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"252086724": "Bleu d'été",
-						"678625422": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"252086724": "Sommerblau",
-						"678625422": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"252086724": "Blu estivo",
-						"678625422": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"252086724": "Летний голубой",
-						"678625422": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"252086724": "Verano Azul",
-						"678625422": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "The Raver",
-			"type": "select",
-			"contentFolders": ["replace/raver"],
-			"blobsFolders": ["blobs/raver"],
-			"localisationOverrides": {
-				"004B8C5124A49543": {
-					"english": {
-						"3362995256": "Summer Blue",
-						"4079878924": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal."
-					},
-					"french": {
-						"3362995256": "Bleu d'été",
-						"4079878924": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel."
-					},
-					"german": {
-						"3362995256": "Sommerblau",
-						"4079878924": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen."
-					},
-					"italian": {
-						"3362995256": "Blu estivo",
-						"4079878924": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali."
-					},
-					"russian": {
-						"3362995256": "Летний голубой",
-						"4079878924": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным."
-					},
-					"spanish": {
-						"3362995256": "Verano Azul",
-						"4079878924": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal."
-					}
-				}
-			}
-		},
-		{
-			"group": "Replace",
-			"name": "Lucky Ducky",
-			"type": "select",
-			"contentFolders": ["replace/luckyducky"],
-			"blobsFolders": ["blobs/luckyducky"],
-			"localisationOverrides": {
-				"004B8C5124A49543": {
-					"english": {
-						"2681050670": "With a tasteful crisp light gray suit, light brown shoes and a powder blue shirt, no tie, this ensemble is sure to impress when you want to dress up but not be too formal.",
-						"2760943898": "Summer Blue"
-					},
-					"french": {
-						"2681050670": "Avec un costume gris clair impeccable, des chaussures marron clair et une chemise bleu poudre, sans cravate, cet ensemble est sûr d'impressionner lorsque l'on veut s'habiller de manière élégante sans être trop formel.",
-						"2760943898": "Bleu d'été"
-					},
-					"german": {
-						"2681050670": "Mit einem geschmackvollen hellgrauen Anzug, hellbraunen Schuhen und einem puderblauen Hemd ohne Krawatte beeindruckt dieses Ensemble, wenn Sie sich schick, aber nicht zu formell kleiden wollen.",
-						"2760943898": "Sommerblau"
-					},
-					"italian": {
-						"2681050670": "Con un elegante abito grigio chiaro, scarpe marrone chiaro e una camicia blu polvere, senza cravatta, questo ensemble è in grado di stupire quando si vuole essere eleganti ma non troppo formali.",
-						"2760943898": "Blu estivo"
-					},
-					"russian": {
-						"2681050670": "Со вкусом подобранный светло-серый костюм, светло-коричневые туфли и пудрово-голубая рубашка без галстука - этот ансамбль произведет впечатление, если вы хотите нарядиться, но не быть слишком официальным.",
-						"2760943898": "Летний голубой"
-					},
-					"spanish": {
-						"2681050670": "Con un traje gris claro de buen gusto, zapatos marrón claro y una camisa azul claro, sin corbata, este conjunto impresionará cuando quieras ir elegante pero no demasiado formal.",
-						"2760943898": "Verano Azul"
-					}
-				}
-			}
-		},
-		{
-			"group": "Gloves",
-			"name": "None (Default)",
-			"type": "select",
-			"tooltip": "Bare hands.",
-			"enabledByDefault": true
-		},
-		{
-			"group": "Gloves",
-			"name": "Leather gloves (Black)",
-			"type": "select",
-			"tooltip": "Black leather gloves.",
-			"image": "leathergloves_black.jpg",
-			"contentFolders": ["variant/gloves/leather_black"]
-		},
-		{
-			"group": "Gloves",
-			"name": "Leather gloves (Brown)",
-			"type": "select",
-			"tooltip": "Brown leather gloves.",
-			"image": "leathergloves_brown.jpg",
-			"contentFolders": ["variant/gloves/leather_brown"]
-		},
-		{
-			"group": "Gloves",
-			"name": "Driving gloves (Black)",
-			"type": "select",
-			"tooltip": "Black driving gloves.",
-			"image": "drivinggloves_black.jpg",
-			"contentFolders": ["variant/gloves/driving_black"]
-		},
-		{
-			"group": "Gloves",
-			"name": "Driving gloves (Brown)",
-			"type": "select",
-			"tooltip": "Brown driving gloves.",
-			"image": "drivinggloves_brown.jpg",
-			"contentFolders": ["variant/gloves/driving_brown"]
-		},
-		{
-			"group": "Jacket",
-			"name": "Buttoned (Default)",
-			"type": "select",
-			"tooltip": "Buttoned jacket.",
-			"enabledByDefault": true
-		},
-		{
-			"group": "Jacket",
-			"name": "Unbuttoned",
-			"type": "select",
-			"tooltip": "Unbutton the jacket.",
-			"image": "unbuttoned_jacket.jpg",
-			"contentFolders": ["variant/jacket/unbuttoned"]
+			]
 		}
-	],
-	"updateCheck": "https://github.com/JojjeE/h3-summer-blue/releases/latest/download/updates.json"
+	]
 }

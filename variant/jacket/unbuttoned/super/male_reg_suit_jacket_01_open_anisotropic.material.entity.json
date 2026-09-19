@@ -1,0 +1,37 @@
+{
+	"factory": "0030064A0D638CFB",
+	"blueprint": "0008604BF832BE95",
+	"material": "00A4C3DAEF778747",
+	"overrides": {
+		"Texture2DNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/suit_jackets/textures/male_reg_suit_jacket_01.texture?/normal_open.tex](asnormalmap).pc_tex"
+		},
+		"Texture2D_03": { "type": "texture", "value": "00E1A2FBAD24C628" },
+		"Texture2D_01": { "type": "texture", "value": "00A1B645711777B9" },
+		"Texture2DCompoundNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex"
+		},
+		"ConstantColorRGB_05_Value": {
+			"type": "color",
+			"value": "ffe8e8"
+		},
+		"ConstantColorRGB_02_Value": {
+			"type": "color",
+			"value": "4a4648"
+		},
+		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_10_Value": { "type": "float", "value": -1.0 },
+		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_05_Value": { "type": "float", "value": 0.7 },
+		"ConstantVector1D_09_Value": { "type": "float", "value": 1.2 },
+		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_01_Value": { "type": "float", "value": 0.5 },
+		"ConstantVector1D_07_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_08_Value": { "type": "float", "value": 0.1 },
+		"ConstantVector1D_15_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_16_Value": { "type": "float", "value": 0.0 },
+		"ShadowAlphaCutoffThreshold": { "type": "float", "value": 0.2 }
+	}
+}
