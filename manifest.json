@@ -48,7 +48,7 @@
 					}
 				},
 				{
-					"id": "sb-install-casual",
+					"id": "sb-install-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bangkok"],
@@ -56,7 +56,7 @@
 					}
 				},
 				{
-					"id": "sb-install-italian",
+					"id": "sb-install-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sapienza"],
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"id": "sb-install-floridafit",
+					"id": "sb-install-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": ["replace/miami"],
@@ -72,7 +72,7 @@
 					}
 				},
 				{
-					"id": "sb-install-casualtourist",
+					"id": "sb-install-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": ["replace/sanfortuna"],
@@ -112,7 +112,7 @@
 					}
 				},
 				{
-					"id": "sb-install-summersuit",
+					"id": "sb-install-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/marrakesh"],
@@ -120,7 +120,7 @@
 					}
 				},
 				{
-					"id": "sb-install-tropical",
+					"id": "sb-install-tropicalsuit",
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": ["replace/tropicalsuit"],
@@ -144,7 +144,7 @@
 					}
 				},
 				{
-					"id": "sb-install-ducky",
+					"id": "sb-install-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": ["replace/luckyducky"],
